@@ -16,7 +16,7 @@ EOF
 
 cat <<-EOF | psql -U root -d adb
 	CREATE TABLE account(id BIGSERIAL NOT NULL, name VARCHAR(30),
-		birthdat DATE, last_login TIMESTAMP, balance DOUBLE PRECISION, credits
+		birthday DATE, last_login TIMESTAMP, balance DOUBLE PRECISION, credits
 		INT);
 	COPY account FROM '/vagrant/resources/account.csv' WITH CSV HEADER;
 	SELECT * FROM account;
