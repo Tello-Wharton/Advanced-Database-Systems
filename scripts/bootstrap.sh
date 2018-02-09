@@ -21,3 +21,8 @@ cat <<-EOF | psql -U root -d adb
 	COPY account FROM '/vagrant/resources/account.csv' WITH CSV HEADER;
 	SELECT * FROM account;
 EOF
+
+chmod -R 755 /vagrant
+
+echo "Go to https://github.com/Tello-Wharton/Advanced-Database-Systems for more information on how to use this box"
+
