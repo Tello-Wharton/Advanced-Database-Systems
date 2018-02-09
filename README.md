@@ -2,7 +2,7 @@
 # Getting Started
 1. [Download and install VirtualBox 5.1.x](https://www.virtualbox.org/wiki/Downloads)
 2. [Download and install Vagrant](http://www.vagrantup.com/downloads.html)
-3. [Download and install Git for Windows](https://git-scm.com/) (Windows only
+3. [Download and install Git for Windows](https://git-scm.com/) (Windows only)
 4. Open Terminal or Git Bash
 5. Clone this repository to a folder of your choice ```git clone https://github.com/Tello-Wharton/Advanced-Database-Systems.git```
 6. Run ```chmod -R 755 Advanced-Database-Systems``` on the folder (Linux and Mac only)
